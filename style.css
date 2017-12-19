@@ -1,0 +1,57 @@
+#side-panel {
+	border: 1px solid black;
+}
+
+.jumbotron {
+	color: white;
+	background-color: dodgerblue;
+	font-weight: bold;
+}
+
+.actor {
+	margin-right: 10px;
+	margin-bottom: 5px;
+	color: white;
+	background-color: dodgerblue;
+	font-weight: bold;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+
+.gif-container {
+	display: inline-block;
+	margin: 0 10px;
+	border: 1px solid black;
+	margin-bottom: 20px;
+}
+
+#gifs {
+	text-align: center;
+}
+
+h4 {
+	background-color: dodgerblue;
+	font-weight: bold;
+	color: white;
+	margin: 0;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.input-group {
+	margin: 0 auto;
+}
+
+.panel-heading {
+	text-align: center;
+}
+
+.panel-title {
+	color: white;
+}
+
+#add-actor {
+	background-color: dodgerblue;
+	font-weight: bold;
+	color: white;
+}

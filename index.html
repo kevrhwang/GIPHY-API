@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Actor gifs</title>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	</head>
+	<body>
+		
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9" id="actor-buttons">
+					
+				</div>
+				<div class="col-md-3">
+					<div class="panel panel-default" id="side-panel">
+						<div class="panel-heading" style="background-color: dodgerblue">
+							<h3 class="panel-title">Add an Actor!</h3>
+						</div>
+						<div class="panel-body">
+							<div class="input-group">
+								<form>
+      						<input type="text" id="user-input" placeholder="Search for...">
+
+      						<!-- Button triggers new movie to be added -->
+      						<input id="add-actor" type="submit" value="Add!">
+    						</form>
+							</div><!-- /input-group -->
+						</div>
+					</div>
+				</div>
+			</div>
+			
+
+			<div class="row">
+				<div class="col-md-12">
+					<div class="jumbotron">
+  					<div class="container">
+    					<h1 style="text-align: center">Click buttons for gifs to appear!</h1>
+    					<h3 style="text-align: center">Click image to start/stop gif!</h3>
+  					</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12" id="gifs">
+
+					
+				</div>
+			</div>
+		</div>
+			<script src="javascript.js"></script>
+		</body>
+	</html>
